@@ -1,0 +1,39 @@
+package lesson11.exercise_2;
+
+public class CountStringOccurrences {
+	public static int countOccurrences(String[] arr, String target) {
+		int count = 0;
+		if (target == null) {
+			for (String item : arr) {
+				if (item == null) {
+					count++;
+				}
+			}
+		} else {
+			for (String item : arr) {
+				if (target.equals(item)) {
+					count++;
+				}
+			}
+		}
+		return count;
+	}
+
+	public static <T> int countOccurrences1(T[] arr, T target) {
+		int count = 0;
+		if (target == null) {
+			for (T item : arr) {
+				if (item == null) {
+					count++;
+				}
+			}
+		} else {
+			for (T item : arr) {
+				if (target.equals(item)) {
+					count++;
+				}
+			}
+		}
+		return count;
+	}
+}

@@ -1,0 +1,4 @@
+Q2
+ 
+   A.	Returns a zero meaning two objects are equal, but this is not always true,
+      for example: two employees can share same names but have different salaries and even last names which makes them unequal.

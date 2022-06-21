@@ -1,0 +1,52 @@
+Joe Smith
+
+  Corazza
+
+  lab10.prob1.javapackage.DataMiner
+
+  Should use Logger
+
+  1
+
+
+
+
+Tom Jones
+
+  Corazza
+
+  lab10.prob1.javapackage.Circle
+
+  computePerimeter incorrect
+
+  0
+
+
+
+
+Tom Jones
+
+  Corazza
+
+  lab10.prob1.javapackage.ClosedCurve
+
+  
+
+  1
+
+
+
+
+Joe Smith
+
+  Corazza
+
+  lab10.prob1.javapackage.Rectangle
+
+  computePerimeter incorrect
+
+  2
+
+
+
+

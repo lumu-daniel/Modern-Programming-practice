@@ -1,0 +1,21 @@
+    The comparison is done in two different ways. One way leads to a “false”, the other to a “true.”
+Given:
+        Person p1 = new PersonWithJob("Joe", 30000);
+	Person p2 = new Person("Joe");
+
+	System.out.println("p1.equals(p2)? " + p1.equals(p2));
+	System.out.println("p2.equals(p1)? " + p2.equals(p1));
+
+Explain why this has happened:
+
+In the first output, we can see that p1.equals(p2)) assuming @equals method overridden,
+we can see that "instanceof" approach is used to compare to objects. Which doesn't satisfy Person instanceof PersonWithJob
+- returns false while Person is not subclass of PersonWithJob.
+
+In the second output, we can see p2.equals(p1) comparing weather PersonWithJob satisfy instanceof Person.
+Result is true since PersonWithJob is subclass of Person. In the overridden @equals method,
+only object names are compared, while both are "Joe" condition is satisfied.
+
+
+Summary reason for different results,
+Person and PersonWithJob classes both have it's own equals method overridden while using "instanceof" approach.
